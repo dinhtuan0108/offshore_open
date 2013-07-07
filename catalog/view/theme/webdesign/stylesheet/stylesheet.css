@@ -13,3 +13,88 @@ body {
 body, td, th, input, textarea, select, a {
 	font-size: 12px;
 }
+/*******************HEADER**********************/
+.top-nav {
+	width: 100%;
+	height: 75px;
+	background-color: #373833;
+}
+.top-nav-inner {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	max-height: 75px;
+	max-width: 100px;
+}
+.top-menu {
+	width: auto;
+	float: left;
+	top: 15px;
+}
+.top-menu li {
+	margin-right: 20px;
+}
+.top-menu a {
+	color: #FFF !important;
+	text-shadow: none !important;
+	font-weight: bold;
+	font-size: 14px;
+}
+.top-menu a:hover {
+	color: #CE3827 !important;
+}
+
+/***************FOOTER*******************/
+#footer {
+	width: 100%;
+	background-color: #CD3F31;
+	border-top: 1px #FF0 dashed;
+}
+#footer-inner {
+	width: 960px;
+	margin: 10px auto;
+}
+/*****************CONTENT*********************/
+#content {
+	margin-top: -20px;
+}
+/******************HOME PAGE******************/
+.content-top {
+	width: 100%;
+}
+.content-top.content-slider {
+	background-image: url('../image/banner-bg.jpg');
+	background-repeat: repeat-x;
+	height: 380px;
+}
+.content-top.content-intro {
+	background-color: #F3EADD;
+	height: 480px;
+}
+.content-top.content-home-gallery {
+	background-color: #A6A7A1;
+	height: 300px;
+}
+.content-top.content-more {
+	background-color: #FCE297;
+	height: 25px;
+}
+
+.content-top.content-service {
+	background-image: url('../image/yellow-grid-bg.jpg');
+	height: 300px;
+	border-bottom: 30px solid #EECD82;
+}
+.content-top.content-contact {
+	background-color: #373833;
+	height: 300px;
+}
+.content-inner {
+	width: 960px;
+	margin: 0 auto;
+}

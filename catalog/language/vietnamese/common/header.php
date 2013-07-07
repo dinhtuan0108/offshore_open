@@ -12,4 +12,8 @@ $_['text_account']  = 'Tài khoản';
 $_['text_checkout'] = 'Thanh toán';
 $_['text_language'] = 'Ngôn ngữ';
 $_['text_currency'] = 'Tiền tệ';
+$_['text_about'] = 'Giới thiệu';
+$_['text_web_design'] = 'Thiết kế web';
+$_['text_news'] = 'Tin tức';
+$_['text_contact_us'] = 'Liên hệ';
 ?>

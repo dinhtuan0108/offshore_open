@@ -42,6 +42,12 @@ class ControllerCommonHeader extends Controller {
 		$this->data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', 'SSL'), $this->customer->getFirstName(), $this->url->link('account/logout', '', 'SSL'));
 		$this->data['text_account'] = $this->language->get('text_account');
     	$this->data['text_checkout'] = $this->language->get('text_checkout');
+    	
+    	//added by duythanhdao@live.com
+    	$this->data['text_about'] = $this->language->get('text_about');
+    	$this->data['text_web_design'] = $this->language->get('text_web_design');
+    	$this->data['text_news'] = $this->language->get('text_news');
+    	$this->data['text_contact_us'] = $this->language->get('text_contact_us');
 				
 		$this->data['home'] = $this->url->link('common/home');
 		$this->data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
@@ -49,6 +55,12 @@ class ControllerCommonHeader extends Controller {
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');
 		$this->data['shopping_cart'] = $this->url->link('checkout/cart');
 		$this->data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
+		
+		//added by duythanhdao@live.com
+		$this->data['about'] = $this->url->link('information/about');
+		$this->data['webdesign'] = $this->url->link('information/webdesign');
+		$this->data['news'] = $this->url->link('information/news');
+		$this->data['contact'] = $this->url->link('information/contact');
 		
 		// Daniel's robot detector
 		$status = true;
