@@ -20,6 +20,25 @@ a, a:hover {
 a:hover {
 	color: #582515;
 }
+.red {
+	color: #F00;
+}
+.connect-us {
+	text-transform: uppercase;
+	background-color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	width: 40px;
+	padding: 5px;
+	border-radius: 0px;
+	box-shadow: 5px 5px 5px #000;
+	position: fixed;
+	left: 0px;
+	top: 200px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	z-index: 1000;
+}
 /*******************HEADER**********************/
 .top-nav {
 	width: 100%;
@@ -67,6 +86,10 @@ a:hover {
 #footer-inner {
 	width: 960px;
 	margin: 10px auto;
+	color: #DBDBDB;
+}
+#footer-inner a{
+	color: #DBDBDB;
 }
 /*****************CONTENT*********************/
 #content {
@@ -98,14 +121,29 @@ a:hover {
 
 .content-top.content-service {
 	background-image: url('../image/yellow-grid-bg.jpg');
-	height: 300px;
 	border-bottom: 30px solid #EECD82;
 }
 .content-top.content-contact {
 	background-color: #373833;
-	height: 300px;
+	color: #FFF;
+}
+.content-top.content-contact input {
+	width: 100%;
 }
 .content-inner {
 	width: 960px;
 	margin: 0 auto;
+}
+.gallery-title {
+	text-transform: uppercase;
+	background-color: #D14335;
+	border-radius: 5px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	width: 400px;
+	padding: 15px;
+	margin: -30px auto;
+	box-shadow: 5px 5px 5px #000;
 }
