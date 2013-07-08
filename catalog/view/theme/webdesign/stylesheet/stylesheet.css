@@ -13,9 +13,17 @@ body {
 body, td, th, input, textarea, select, a {
 	font-size: 12px;
 }
+a, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #582515;
+}
 /*******************HEADER**********************/
 .top-nav {
 	width: 100%;
+	min-width: 960px;
 	height: 75px;
 	background-color: #373833;
 }
@@ -52,6 +60,7 @@ body, td, th, input, textarea, select, a {
 /***************FOOTER*******************/
 #footer {
 	width: 100%;
+	min-width: 960px;
 	background-color: #CD3F31;
 	border-top: 1px #FF0 dashed;
 }
@@ -66,6 +75,8 @@ body, td, th, input, textarea, select, a {
 /******************HOME PAGE******************/
 .content-top {
 	width: 100%;
+	min-width: 960px;
+	float: left;
 }
 .content-top.content-slider {
 	background-image: url('../image/banner-bg.jpg');
