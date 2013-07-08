@@ -87,7 +87,27 @@
 		<div class="content-inner">
 			<div class="gallery-title">
 				sample design gallery
-			</div>		
+			</div>
+			<div class="row-fluid" style="margin-top: 45px;">
+				<div class="span2">
+					<img src="catalog/view/theme/webdesign/image/tpl_1.jpg" alt="template 1" />
+				</div>
+				<div class="span2">
+					<img src="catalog/view/theme/webdesign/image/tpl_2.jpg" alt="template 2" />
+				</div>
+				<div class="span2">
+					<img src="catalog/view/theme/webdesign/image/tpl_3.jpg" alt="template 3" />
+				</div>
+				<div class="span2">
+					<img src="catalog/view/theme/webdesign/image/tpl_4.jpg" alt="template 4" />
+				</div>
+				<div class="span2">
+					<img src="catalog/view/theme/webdesign/image/tpl_2.jpg" alt="template 5" />
+				</div>
+				<div class="span2">
+					<img src="catalog/view/theme/webdesign/image/tpl_1.jpg" alt="template 6" />
+				</div>
+			</div>
 		</div>
 
 	</div>

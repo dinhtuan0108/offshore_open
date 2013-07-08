@@ -71,9 +71,13 @@ a:hover {
 	text-shadow: none !important;
 	font-weight: bold;
 	font-size: 14px;
+	border: 1px solid transparent;
+	transition-duration: 1s;
 }
 .top-menu a:hover {
 	color: #CE3827 !important;
+	border-bottom: 1px dotted #F00;
+	
 }
 
 /***************FOOTER*******************/
@@ -113,6 +117,13 @@ a:hover {
 .content-top.content-home-gallery {
 	background-color: #A6A7A1;
 	height: 300px;
+}
+.content-top.content-home-gallery img{
+	max-height: 197px;
+	border: 8px solid #FFF;
+}
+.content-top.content-home-gallery img:hover{
+	border: 8px solid #EEE;
 }
 .content-top.content-more {
 	background-color: #FCE297;
