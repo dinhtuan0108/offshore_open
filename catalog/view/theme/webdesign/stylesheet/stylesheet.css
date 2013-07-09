@@ -72,7 +72,11 @@ a:hover {
 	font-weight: bold;
 	font-size: 14px;
 	border: 1px solid transparent;
-	transition-duration: 1s;
+	/*transition-duration*/
+	-webkit-transition-duration:1s;
+	   -moz-transition-duration:1s;
+	     -o-transition-duration:1s;
+	        transition-duration:1s;
 }
 .top-menu a:hover {
 	color: #CE3827 !important;
@@ -94,6 +98,10 @@ a:hover {
 }
 #footer-inner a{
 	color: #DBDBDB;
+}
+#footer-inner h4 {
+	border-bottom: #FFF 1px dotted;
+	padding-bottom: 5px;
 }
 /*****************CONTENT*********************/
 #content {
