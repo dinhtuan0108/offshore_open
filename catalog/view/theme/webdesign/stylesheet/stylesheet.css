@@ -191,6 +191,12 @@ a:hover {
 	background: url("../image/skype_button.png");
 	background-size: 32px 32px;
 }
+.sns-btn.skype img{
+	width: 31px;
+	height: 31px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+}
 .sns-btn.twitter {
 	background-position: 0px -704px;
 }

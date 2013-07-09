@@ -66,16 +66,19 @@
 
 
 <div class="connect-us" style="display: none;">
-	<a href="https://www.facebook.com/ecomwebpro" class="pull-left sns-btn facebook" rel="tooltip"></a>
-	<a href="https://www.twitter.com/ecomwebpro" class="pull-left sns-btn twitter" rel="tooltip"></a>
-	<a href="mailto:info@ecomwebpro.com" class="pull-left sns-btn email" rel="tooltip"></a>
-	<a href="skype:successdt?chat" class="pull-left sns-btn skype" rel="tooltip"></a>
-	<a href="ymsgr:sendim?success_dt" class="pull-left sns-btn yahoo" rel="tooltip"></a>
+	<a href="https://www.facebook.com/ecomwebpro" class="pull-left sns-btn facebook" rel="tooltip" title="Facebook"></a>
+	<a href="https://www.twitter.com/ecomwebpro" class="pull-left sns-btn twitter" rel="tooltip" title="Twitter"></a>
+	<a href="mailto:info@ecomwebpro.com" class="pull-left sns-btn email" rel="tooltip" title="Email"></a>
+	<a href="skype:successdt?chat" class="pull-left sns-btn skype" rel="tooltip" title="skype">
+		<img src="http://mystatus.skype.com/mediumicon/successdt" />
+	</a>
+	<a href="ymsgr:sendim?success_dt" class="pull-left sns-btn yahoo" rel="tooltip" title="Yahoo"></a>
 </div>
 
 
 <script type="text/javascript">
 	$(document).ready(function(){
+		$('a').tooltip({});
 		$(window).scroll(function(){
 			if(($(window).scrollTop() > 140)) {
 				$('.connect-us').fadeIn(200);
