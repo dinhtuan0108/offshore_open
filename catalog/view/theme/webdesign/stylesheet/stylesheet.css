@@ -166,3 +166,37 @@ a:hover {
 	margin: -30px auto;
 	box-shadow: 5px 5px 5px #000;
 }
+/******SOCIAL*****************/
+.sns-btn {
+	background: url("../image/social_icon.gif");
+	background-repeat: no-repeat;	
+	width: 32px;
+	height: 32px;
+	margin: 0px 5px 5px 5px;
+}
+.sns-btn:hover{
+	opacity: 0.8;
+}
+.sns-btn.facebook {
+	background-position: 0px -160px;
+}
+.sns-btn.email {
+	background-position: 0px -128px;
+}
+
+.sns-btn.tumblr {
+	background-position: 0px -672px;
+}
+.sns-btn.skype {
+	background: url("../image/skype_button.png");
+	background-size: 32px 32px;
+}
+.sns-btn.twitter {
+	background-position: 0px -704px;
+}
+.sns-btn.pinterest {
+	background-position: 0px -544px;
+}
+.sns-btn.yahoo {
+	background-position: 0px -768px;
+}

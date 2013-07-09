@@ -64,16 +64,15 @@
 	</div>
 </div>
 
-<!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_floating_style addthis_32x32_style connect-us" style="display: none;">
-	<a class="addthis_button_facebook"></a>
-	<a class="addthis_button_twitter"></a>
-	<a class="addthis_button_google_plusone_share"></a>
-	<a class="addthis_button_email"></a>
+
+<div class="connect-us" style="display: none;">
+	<a href="https://www.facebook.com/ecomwebpro" class="pull-left sns-btn facebook" rel="tooltip"></a>
+	<a href="https://www.twitter.com/ecomwebpro" class="pull-left sns-btn twitter" rel="tooltip"></a>
+	<a href="mailto:info@ecomwebpro.com" class="pull-left sns-btn email" rel="tooltip"></a>
+	<a href="skype:successdt?chat" class="pull-left sns-btn skype" rel="tooltip"></a>
+	<a href="ymsgr:sendim?success_dt" class="pull-left sns-btn yahoo" rel="tooltip"></a>
 </div>
-<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f60d84631cde6f"></script>
-<!-- AddThis Button END -->
+
 
 <script type="text/javascript">
 	$(document).ready(function(){
