@@ -9,7 +9,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background-image: url('../image/yellow-grid-bg.jpg');
+	background-color: #F3EADD;
 }
 body, td, th, input, textarea, select, a {
 	font-size: 12px;
@@ -102,6 +102,7 @@ hr {
 	min-width: 960px;
 	background-color: #CD3F31;
 	border-top: 1px #FF0 dashed;
+	float: left;
 }
 #footer-inner {
 	width: 960px;
@@ -121,22 +122,35 @@ hr {
 	width: auto;
 }
 #column-left {
-	width: 180px;
+	width: 220px;
 	float: left;
 }
 #column-right {
-	width: 180px;
+	width: 220px;
 	float: right;
 }
 #column-left + #column-right + #content, #column-left + #content {
-	margin-left: 195px;
+	margin-left: 235px;
 }
 #column-right + #content {
-	margin-right: 195px;
+	margin-right: 235px;
 }
 .content-wrapper {
 	width: 960px;
 	margin: 0 auto 30px;
+}
+.content-wrapper #content{
+	background-color: #FCFCFF;
+	padding: 20px 20px 5px;
+	border-radius: 5px;
+	margin-top: 20px;
+	border-top: 40px solid #F2F2EE;
+}
+#column-right .banner {
+	background-color: #FCFCFF;
+	padding: 5px;
+	border-radius: 5px;
+	border-top: 40px solid #F2F2EE	
 }
 /******************HOME PAGE******************/
 .content-top {
@@ -239,4 +253,9 @@ hr {
 }
 .sns-btn.googleplus {
 	background-position: 0px -288px;
+}/*********BREADCRUMB*******************/
+.breadcrumb {
+	width: 100%;
+	margin-top: -55px;
+	background-color: transparent;
 }

@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<?php echo $column_left; ?><?php echo $column_right; ?>
 	<div id="content"><?php echo $content_top; ?>
-	  <div class="custom-breadcrumb">
+	  <div class="breadcrumb">
 	    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
 	    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
 	    <?php } ?>
 	  </div>
-	  <hr />
+	  <br />
 	  <h1><?php echo $heading_title; ?></h1>
 	  <hr />
 	  <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
@@ -33,14 +33,14 @@
 	    <h2><?php echo $text_contact; ?></h2>
 	    <div class="content">
 	    <b><?php echo $entry_name; ?></b><br />
-	    <input type="text" name="name" value="<?php echo $name; ?>" />
+	    <input type="text" name="name" value="<?php echo $name; ?>" style="width: 350px;"/>
 	    <br />
 	    <?php if ($error_name) { ?>
 	    <span class="error"><?php echo $error_name; ?></span>
 	    <?php } ?>
 	    <br />
 	    <b><?php echo $entry_email; ?></b><br />
-	    <input type="text" name="email" value="<?php echo $email; ?>" />
+	    <input type="text" name="email" value="<?php echo $email; ?>" style="width: 350px;"/>
 	    <br />
 	    <?php if ($error_email) { ?>
 	    <span class="error"><?php echo $error_email; ?></span>
