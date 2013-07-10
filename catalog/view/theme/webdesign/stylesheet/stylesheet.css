@@ -9,6 +9,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
+	background-image: url('../image/yellow-grid-bg.jpg');
 }
 body, td, th, input, textarea, select, a {
 	font-size: 12px;
@@ -20,7 +21,18 @@ a, a:hover {
 a:hover {
 	color: #582515;
 }
+hr {
+	color: #D89A1B;
+	background-color: #D89A1B;
+	height: 2px;
+}
+.margin10 {
+	margin: 10px;
+}
 .red {
+	color: #F00;
+}
+.error {
 	color: #F00;
 }
 .connect-us {
@@ -105,7 +117,26 @@ a:hover {
 }
 /*****************CONTENT*********************/
 #content {
-	margin-top: -20px;
+	margin: -20px auto;
+	width: auto;
+}
+#column-left {
+	width: 180px;
+	float: left;
+}
+#column-right {
+	width: 180px;
+	float: right;
+}
+#column-left + #column-right + #content, #column-left + #content {
+	margin-left: 195px;
+}
+#column-right + #content {
+	margin-right: 195px;
+}
+.content-wrapper {
+	width: 960px;
+	margin: 0 auto 30px;
 }
 /******************HOME PAGE******************/
 .content-top {
@@ -205,4 +236,7 @@ a:hover {
 }
 .sns-btn.yahoo {
 	background-position: 0px -768px;
+}
+.sns-btn.googleplus {
+	background-position: 0px -288px;
 }
