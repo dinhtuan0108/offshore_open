@@ -74,8 +74,8 @@
 	<a href="https://www.twitter.com/ecomwebpro" class="pull-left sns-btn twitter" rel="tooltip" title="Twitter"></a>
 	<a href="https://plus.google.com/pages/ecomwebpro" class="pull-left sns-btn googleplus" rel="tooltip" title="Google+"></a>
 	<a href="mailto:info@ecomwebpro.com" class="pull-left sns-btn email" rel="tooltip" title="Email"></a>
-	<a href="skype:successdt?chat" class="pull-left sns-btn skype" rel="tooltip" title="skype">
-		<img src="http://mystatus.skype.com/mediumicon/successdt" />
+	<a href="skype:ecomwebpro?chat" class="pull-left sns-btn skype" rel="tooltip" title="skype">
+		<img src="http://mystatus.skype.com/mediumicon/ecomwebpro" />
 	</a>
 	<a href="ymsgr:sendim?success_dt" class="pull-left sns-btn yahoo" rel="tooltip" title="Yahoo"></a>
 </div>
