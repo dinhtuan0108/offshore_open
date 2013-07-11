@@ -67,8 +67,7 @@ hr {
 	float: left;
 }
 .logo img {
-	max-height: 75px;
-	max-width: 100px;
+	padding-top:5px;
 }
 .top-menu {
 	width: auto;
