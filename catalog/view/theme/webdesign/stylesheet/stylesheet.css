@@ -120,6 +120,7 @@ hr {
 #content {
 	margin: -20px auto;
 	width: auto;
+	min-height: 400px;
 }
 #column-left {
 	width: 220px;
