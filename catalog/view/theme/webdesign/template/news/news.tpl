@@ -1,5 +1,5 @@
 <?php echo $header; ?>
-<div id="content-wrapper">
+<div class="content-wrapper">
 	<?php echo $column_left; ?><?php echo $column_right; ?>
 	<div id="content"><?php echo $content_top; ?>
 	  <div class="breadcrumb">

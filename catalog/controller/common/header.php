@@ -57,9 +57,9 @@ class ControllerCommonHeader extends Controller {
 		$this->data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		
 		//added by duythanhdao@live.com
-		$this->data['about'] = $this->url->link('information/about');
-		$this->data['webdesign'] = $this->url->link('information/webdesign');
-		$this->data['news'] = $this->url->link('information/news');
+		$this->data['about'] = $this->url->link('information/information', 'information_id=7');
+		$this->data['webdesign'] = $this->url->link('product/category');
+		$this->data['news'] = $this->url->link('news/news');
 		$this->data['contact'] = $this->url->link('information/contact');
 		
 		// Daniel's robot detector
