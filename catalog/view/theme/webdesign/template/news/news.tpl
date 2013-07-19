@@ -7,7 +7,9 @@
 	    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
 	    <?php } ?>
 	  </div>
+	  <?php /*
 	  <h1><?php echo $heading_title; ?></h1>
+	  */ ?>
 	  <hr style="margin: 0;" />
 	  <div class="news-wrapper">
 	  	<?php foreach($news_list as $news) : ?>
