@@ -35,7 +35,7 @@
 	  	<?php endforeach; ?>
 
 	  	<div class="news">
-			<?php echo $pagination ?>  
+			<div class="pagination"><?php echo $pagination; ?></div>
 		</div>
 	  </div>
 	  <?php echo $content_bottom; ?></div>
