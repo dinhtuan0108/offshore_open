@@ -6,16 +6,14 @@
 <base href="<?php echo $base; ?>" />
 <?php if ($keywords) : ?>
 	<meta name="keywords" content="<?php echo $keywords; ?>" />
-<?php elseif($description): ?>
-	<meta name="keywords" content="<?php echo $description; ?>" />
 <?php else: ?>
-	<meta name="keywords" content="Ecomwebpro | Kho giao diện công ty thiết kế website| Thiet ke website| thiết kế web| thiet ke web| làm web| lam web| thiet ke website| web miễn phí| web mien phi| lập web| lap web| web giá rẻ| web gia re| tao trang web| dịch vụ web| dich vu web| web online| web free|  web thương mại điện tử| web tron goi| web trọn gói" />
+	<meta name="keywords" content="Ecomwebpro | ecomwebpro.com | Kho giao diện công ty thiết kế website| Thiet ke website| thiết kế web| thiet ke web| làm web| lam web| thiet ke website| web miễn phí| web mien phi| lập web| lap web| web giá rẻ| web gia re| tao trang web| dịch vụ web| dich vu web| web online| web free|  web thương mại điện tử| web tron goi| web trọn gói" />
 <?php endif; ?>
 	<meta name="abstract" content="Thiết kế website| Thiet ke website| Website trọn gói| thiết kế website giá rẻ"/>
 <?php if ($description) : ?>
 	<meta name="description" content="<?php echo $description; ?>" />
 <?php else : ?>
-	<meta name="description" content="Ecomwebpro | Kho giao diện công ty thiết kế website| Thiet ke website| thiết kế web| thiet ke web| làm web| lam web| thiet ke website| web miễn phí| web mien phi| lập web| lap web| web giá rẻ| web gia re| tao trang web| dịch vụ web| dich vu web| web trọn gói| web tron goi nhiều mẫu website được thiết kế sẵn thuộc nhiều lĩnh vực ngành nghề " />
+	<meta name="description" content="Ecomwebpro | ecomwebpro.com | Kho giao diện công ty thiết kế website| Thiet ke website| thiết kế web| thiet ke web| làm web| lam web| thiet ke website| web miễn phí| web mien phi| lập web| lap web| web giá rẻ| web gia re| tao trang web| dịch vụ web| dich vu web| web trọn gói| web tron goi nhiều mẫu website được thiết kế sẵn thuộc nhiều lĩnh vực ngành nghề " />
 <?php endif; ?>
 <meta name="author" content="EcomWebPro Team"/>
 <meta name="distribution" content="Global"/>
