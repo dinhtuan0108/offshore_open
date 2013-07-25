@@ -399,6 +399,9 @@ ul.box-filter > li ul {
 	padding-bottom: 10px;
 }
 /*********News**********/
+.news-wrapper {
+	display: table;
+}
 .news {
 	width: 100%;
 	float: left;
